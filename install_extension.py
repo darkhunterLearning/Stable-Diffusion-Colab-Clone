@@ -15,7 +15,7 @@ linux_commands = [
   "apt -y install -qq aria2",
   "pip install -q xformers==0.0.16",
   "pip install -q triton==2.0.0",
-  "git clone -b v2.0 https://github.com/camenduru/stable-diffusion-webui",
+  "git clone -b v2.1 https://github.com/camenduru/stable-diffusion-webui",
   "wget https://raw.githubusercontent.com/camenduru/stable-diffusion-webui-scripts/main/run_n_times.py -O /content/stable-diffusion-webui/scripts/run_n_times.py",
   "git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser /content/stable-diffusion-webui/extensions/stable-diffusion-webui-images-browser",
   "git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-locon  /content/stable-diffusion-webui/extensions/a1111-sd-webui-locon",
