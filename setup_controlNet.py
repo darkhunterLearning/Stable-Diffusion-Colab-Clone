@@ -25,6 +25,7 @@ linux_commands = [
   "aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/ControlNet/resolve/main/t2iadapter_color_sd14v1.pth -d /content/stable-diffusion-webui/extensions/sd-webui-controlnet/models -o t2iadapter_color_sd14v1.pth",
   "aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/ControlNet/resolve/main/t2iadapter_canny_sd14v1.pth -d /content/stable-diffusion-webui/extensions/sd-webui-controlnet/models -o t2iadapter_canny_sd14v1.pth",
   "sed -i -e '''/    prepare_environment()/a\    os.system\(f\"\"\"sed -i -e ''\"s/dict()))/dict())).cuda()/g\"'' /content/stable-diffusion-webui/repositories/stable-diffusion-stability-ai/ldm/util.py\"\"\")''' /content/stable-diffusion-webui/launch.py",
+  "sed -i -e 's/\\\"sd_model_checkpoint\\\"\\,/\\\"sd_model_checkpoint\\,sd_vae\\,CLIP_stop_at_last_layers\\\"\\,/g' /content/stable-diffusion-webui/modules/shared.py",
   "sed -i -e 's/fastapi==0.90.1/fastapi==0.89.1/g' /content/stable-diffusion-webui/requirements_versions.txt"
 ]
 
