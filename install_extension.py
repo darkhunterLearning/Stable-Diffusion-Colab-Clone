@@ -12,7 +12,7 @@ linux_commands = [
   "ls /content/",
   "rm *.deb",
   "pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 torchtext==0.14.1 torchdata==0.5.1 --extra-index-url https://download.pytorch.org/whl/cu116 -U",
-  "apt -y install -qq aria2",
+  "apt -y install -qq aria2 libcairo2-dev pkg-config python3-dev",
   "pip install -q xformers==0.0.16",
   "pip install -q triton==2.0.0",
   "git clone -b v2.1 https://github.com/camenduru/stable-diffusion-webui",
