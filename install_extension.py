@@ -32,7 +32,8 @@ linux_commands = [
   "git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-rembg /content/stable-diffusion-webui/extensions/stable-diffusion-webui-rembg",
   "git clone https://github.com/adieyal/sd-dynamic-prompts /content/stable-diffusion-webui/extensions/sd-dynamic-prompts",
   "git clone https://github.com/hako-mikan/sd-webui-regional-prompter /content/stable-diffusion-webui/extensions/sd-webui-regional-prompter",
-  "git clone https://github.com/deforum-art/sd-webui-deforum /content/stable-diffusion-webui/extensions/deforum"
+  "git clone https://github.com/deforum-art/sd-webui-deforum /content/stable-diffusion-webui/extensions/deforum",
+  "git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111 /content/stable-diffusion-webui/extensions/ultimate-upscale-for-automatic1111"
 ]
 
 for command in linux_commands:
