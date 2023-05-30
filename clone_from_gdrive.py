@@ -3,15 +3,10 @@ import os
 linux_commands = [
   "mkdir /content/stable-diffusion-webui/models/hypernetworks/",
   "mkdir /content/stable-diffusion-webui/models/Lora/",
-  "cp -r /content/drive/MyDrive/SD_FILE/embedding/*.pt /content/stable-diffusion-webui/embeddings/",
-  "cp -r /content/drive/MyDrive/SD_FILE/embedding/*.safetensors /content/stable-diffusion-webui/embeddings/",
-  "cp -r /content/drive/MyDrive/SD_FILE/hypernet/*.pt /content/stable-diffusion-webui/models/hypernetworks/",
-  "cp -r /content/drive/MyDrive/SD_FILE/vae/*.safetensors /content/stable-diffusion-webui/models/VAE/",
-  "cp -r /content/drive/MyDrive/SD_FILE/vae/*.ckpt /content/stable-diffusion-webui/models/VAE/",
-  "cp -r /content/drive/MyDrive/SD_FILE/lora/*.safetensors /content/stable-diffusion-webui/models/Lora/",
-  "cp -r /content/drive/MyDrive/SD_FILE/embedding/*.png /content/stable-diffusion-webui/embeddings/",
-  "cp -r /content/drive/MyDrive/SD_FILE/hypernet/*.png /content/stable-diffusion-webui/models/hypernetworks/",
-  "cp -r /content/drive/MyDrive/SD_FILE/lora/*.png /content/stable-diffusion-webui/models/Lora/",
+  "cp -r /content/drive/MyDrive/SD_FILE/embedding/* /content/stable-diffusion-webui/embeddings/",
+  "cp -r /content/drive/MyDrive/SD_FILE/hypernet/* /content/stable-diffusion-webui/models/hypernetworks/",
+  "cp -r /content/drive/MyDrive/SD_FILE/vae/* /content/stable-diffusion-webui/models/VAE/",
+  "cp -r /content/drive/MyDrive/SD_FILE/lora/* /content/stable-diffusion-webui/models/Lora/",
   "cp -r /content/drive/MyDrive/AI-Model-2022/*.png /content/stable-diffusion-webui/models/Stable-diffusion/"
 ]
 
