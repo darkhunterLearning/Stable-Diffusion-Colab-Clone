@@ -15,7 +15,6 @@ linux_commands = [
   "apt -y install -qq aria2 libcairo2-dev pkg-config python3-dev",
   "pip install -q xformers==0.0.19 triton==2.0.0 -U",
   "git clone -b v2.3 https://github.com/camenduru/stable-diffusion-webui",
-  "git clone https://huggingface.co/embed/negative /content/stable-diffusion-webui/embeddings/negative",
   "wget https://raw.githubusercontent.com/camenduru/stable-diffusion-webui-scripts/main/run_n_times.py -O /content/stable-diffusion-webui/scripts/run_n_times.py",
   "git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser /content/stable-diffusion-webui/extensions/stable-diffusion-webui-images-browser",
   "git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris  /content/stable-diffusion-webui/extensions/a1111-sd-webui-lycoris",
