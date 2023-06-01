@@ -18,7 +18,7 @@ linux_commands = [
   "git clone https://huggingface.co/embed/negative /content/stable-diffusion-webui/embeddings/negative",
   "wget https://raw.githubusercontent.com/camenduru/stable-diffusion-webui-scripts/main/run_n_times.py -O /content/stable-diffusion-webui/scripts/run_n_times.py",
   "git clone https://github.com/AlUlkesh/stable-diffusion-webui-images-browser /content/stable-diffusion-webui/extensions/stable-diffusion-webui-images-browser",
-  "git clone https://github.com/camenduru/a1111-sd-webui-locon  /content/stable-diffusion-webui/extensions/a1111-sd-webui-locon",
+  "git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris  /content/stable-diffusion-webui/extensions/a1111-sd-webui-lycoris",
   "git clone https://github.com/camenduru/stable-diffusion-webui-huggingface /content/stable-diffusion-webui/extensions/stable-diffusion-webui-huggingface",
   "git clone -b v2.0 https://github.com/camenduru/sd-civitai-browser /content/stable-diffusion-webui/extensions/sd-civitai-browser",
   "git clone https://github.com/kohya-ss/sd-webui-additional-networks /content/stable-diffusion-webui/extensions/sd-webui-additional-networks",
