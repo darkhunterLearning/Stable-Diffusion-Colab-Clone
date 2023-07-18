@@ -20,7 +20,7 @@ linux_commands = [
   "git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris  /content/stable-diffusion-webui/extensions/a1111-sd-webui-lycoris",
   "git clone https://github.com/camenduru/stable-diffusion-webui-huggingface /content/stable-diffusion-webui/extensions/stable-diffusion-webui-huggingface",
   "git clone -b v2.1 https://github.com/camenduru/sd-civitai-browser /content/stable-diffusion-webui/extensions/sd-civitai-browser",
-  "git clone https://github.com/kohya-ss/sd-webui-additional-networks /content/stable-diffusion-webui/extensions/sd-webui-additional-networks",
+  # "git clone https://github.com/kohya-ss/sd-webui-additional-networks /content/stable-diffusion-webui/extensions/sd-webui-additional-networks",
   "git clone https://github.com/Mikubill/sd-webui-controlnet /content/stable-diffusion-webui/extensions/sd-webui-controlnet",
   "git clone https://github.com/camenduru/openpose-editor /content/stable-diffusion-webui/extensions/openpose-editor",
   "git clone https://github.com/jexom/sd-webui-depth-lib /content/stable-diffusion-webui/extensions/sd-webui-depth-lib",
